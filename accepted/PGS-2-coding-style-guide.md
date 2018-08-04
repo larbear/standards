@@ -125,12 +125,7 @@ There MUST NOT be more than one statement per line.
 
 ### 2.4. Indenting
 
-Code MUST use an indent of 4 spaces, and MUST NOT use tabs for indenting.
-
-> N.b.: Using only spaces, and not mixing spaces with tabs, helps to avoid
-> problems with diffs, patches, history, and annotations. The use of spaces
-> also makes it easy to insert fine-grained sub-indentation for inter-line
-> alignment.
+Code MUST use either 4 spaces or tabs for indenting, but not both.
 
 ### 2.5. Keywords and True/False/Null
 
